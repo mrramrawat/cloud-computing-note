@@ -1,0 +1,21 @@
+
+1. ip addr - Show IP addresses of all network interfaces
+2. ifconfig - Display active network interfaces (requires net-tools)
+3. ip route show - Check default gateway
+4. cat /etc/resolv.conf - Show DNS server configuration
+5. ping -c 4 google.com - Ping a website to test connectivity
+6. ping -c 4 <gateway-ip> - Ping the default gateway
+7. systemctl status networking - Check network service status
+8. ethtool <interface-name> - View detailed network interface statistics
+9. ip link show - Display network interfaces
+10. nmcli dev show - Show network device information
+11. dig google.com - Perform a DNS lookup
+12. nslookup google.com - Perform a DNS query
+13. traceroute google.com - Trace the route packets take to a destination (requires traceroute)
+14. netstat -r - Display routing table (requires net-tools)
+15. ss -tuln - Show listening ports and services
+16. curl ifconfig.me - Display external/public IP address
+17. host google.com - Look up DNS information for a domain
+18. wget --spider google.com - Check if a website is reachable
+19. mtr google.com - Network diagnostics and real-time traceroute (requires mtr)
+20. arp -a - Display ARP table
